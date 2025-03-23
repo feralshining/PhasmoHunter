@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PhasmoHunter
+</name>
+</assembly>
+<members>
+<member name="T:PhasmoHunter.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:PhasmoHunter.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:PhasmoHunter.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="P:PhasmoHunter.My.Resources.Resources.header">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:PhasmoHunter.My.Resources.Resources.header1">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:PhasmoHunter.My.Resources.Resources.피눙물_black_ver___">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGameState">
+ <summary>
+ PhasmoPhobia의 프로세스 상태를 반환합니다.
+ </summary>  
+</member>
+<member name="M:PhasmoHunter.PHClass.getMoney">
+ <summary>
+ 현재 플레이어의 소지금을 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setMoney(System.Int32)">
+ <summary>
+ 현재 플레이어의 소지금을 입력받은 정수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getPlayerSanity">
+ <summary>
+ 현재 플레이어의 정신력 수치를 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerSanity(System.Int32)">
+ <summary>
+ 현재 플레이어의 정신력을 입력받은 정수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getLevel">
+ <summary>
+ 현재 플레이어의 레벨을 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setLevel(System.Int32)">
+ <summary>
+ 현재 플레이어의 레벨을 입력받은 정수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.removePlayerName">
+ <summary>
+ 현재 플레이어의 닉네임을 빈 값으로 설정합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerName(System.String)">
+ <summary>
+ 현재 플레이어의 닉네임을 입력받은 문자열 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGrabDistance">
+ <summary>
+ 현재 플레이어의 그랩 거리를 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setGrabDistance(System.Int32)">
+ <summary>
+ 현재 플레이어의 그랩 거리를 입력받은 정수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setGhostSound(System.Int32)">
+ <summary>
+ 유령의 발소리를 설정합니다. (1 = 발소리 듣기, 0 = 발소리 듣지 않기)
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setJump">
+ <summary>
+ PhasmoPhobia의 중력을 조작해 점프 기능을 이용할 수 있게 합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerJump(System.Int32)">
+ <summary>
+ 점프할 수 있는 거리를 입력받은 정수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setGravity(System.Single)">
+ <summary>
+ PhasmoPhobia의 중력을 입력받은 Float형태의 실수 값으로 변경합니다. (기본값은 2입니다.)
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setGroundForce(System.Single)">
+ <summary>
+ PhasmoPhobia의 땅으로부터의 충격량을 입력받은 Float형태의 실수 값으로 변경합니다. (기본값은 100입니다.)
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getPlayerXpos">
+ <summary>
+ 현재 플레이어의 x좌표 값을 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerXPos(System.Single)">
+ <summary>
+ 현재 플레이어의 x좌표 값을 입력받은 Float형태의 실수 값으로 변경합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getPlayerYpos">
+ <summary>
+ 현재 플레이어의 y좌표 값을 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerYPos(System.Single)">
+ <summary>
+ 현재 플레이어의 y좌표 값을 입력받은 Float형태의 실수 값으로 변경합니다. PhasmoPhobia 에서의 Y값은 수학에서의 Z값입니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getPlayerZpos">
+ <summary>
+ 현재 플레이어의 z좌표 값을 반환합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setPlayerZPos(System.Single)">
+ <summary>
+ 현재 플레이어의 z좌표 값을 입력받은 Float형태의 실수 값으로 변경합니다. PhasmoPhobia 에서의 Z값은 수학에서의 Y값입니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setDifficult(System.Int32)">
+ <summary>
+ 현재 의뢰 난이도를 입력받은 정수 값으로 설정합니다. (0 = 초보, 1 = 중급자, 2 = 전문가)
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setGodMode">
+ <summary>
+ 플레이어를 죽은 상태로 변경하여 유령의 공격을 받지 않게 무적 상태로 만듭니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.setUnGodMode">
+ <summary>
+ 플레이어의 무적 상태를 해제합니다. 죽은 후에 사용 시 부활할 수 있습니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGhostName">
+ <summary>
+ 유령의 이름을 바이트 배열로 출력합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGhostAge">
+ <summary>
+ 유령의 나이를 정수로 출력합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGhostRoom">
+ <summary>
+ 유령이 존재하는 방의 위치를 바이트 배열로 출력합니다.
+ </summary>
+</member>
+<member name="M:PhasmoHunter.PHClass.getGhostType">
+ <summary>
+ 유령의 타입을 문자열로 출력합니다.
+ </summary>
+</member>
+</members>
+</doc>

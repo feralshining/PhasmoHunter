@@ -1,0 +1,163 @@
+﻿Public Class Memory_Address
+    'PhasmoPhobia 0.3.0.3
+#Region "PlayerInfo_Address"
+    Public Const Player_Info As String = "GameAssembly.dll+02825CA8,B8,30"
+    Public Const Money_Address As String = Player_Info + "18,28,18"
+    Public Const Level_Address As String = Player_Info + "18,20,18"
+    Public Const GrabDistance_Address As String = "UnityPlayer.dll+017C1CE8,A0,10,30,30,58,28,18"
+#Region "Item_Address"
+    Public Const Item_EMF As String = Player_Info + "18,30,18"
+    Public Const Item_Flash As String = Player_Info + "18,38,18"
+    Public Const Item_PhotoCamera As String = Player_Info + "18,40,18"
+    Public Const Item_Lighter As String = Player_Info + "18,48,18"
+    Public Const Item_Candle As String = Player_Info + "18,50,18"
+    Public Const Item_UV As String = Player_Info + "18,58,18"
+    Public Const Item_Cross As String = Player_Info + "18,60,18"
+    Public Const Item_OrbCamera As String = Player_Info + "18,68,18"
+    Public Const Item_GBox As String = Player_Info + "18,70,18"
+    Public Const Item_Salt As String = Player_Info + "18,78,18"
+    Public Const Item_Smudge As String = Player_Info + "18,80,18"
+    Public Const Item_Tripod As String = Player_Info + "18,88,18"
+    Public Const Item_StrongFlash As String = Player_Info + "18,90,18"
+    Public Const Item_MotionSensor As String = Player_Info + "18,98,18"
+    Public Const Item_SoundSensor As String = Player_Info + "18,A0,18"
+    Public Const Item_Pill As String = Player_Info + "18,A8,18"
+    Public Const Item_Thermometer As String = Player_Info + "18,B0,18"
+    Public Const Item_Writing As String = Player_Info + "18,B8,18"
+    Public Const Item_InfraredSensor As String = Player_Info + "18,C0,18"
+    Public Const Item_Microphone As String = Player_Info + "18,C8,18"
+    Public Const Item_Glowstick As String = Player_Info + "18,D0,18"
+    Public Const Item_HeadCamera As String = Player_Info + "18,D8,18"
+#End Region
+#End Region
+#Region "MyPlayerInfo_Address"
+    Public Const MyPlayer_Info As String = "GameAssembly.dll+035DC3D8,"
+    Public Const MP_Name As String = MyPlayer_Info + "310,198,380,1B0,2C0,20,14"
+    Public Const MP_NameLength As String = MyPlayer_Info + "310,198,380,1B0,2C0,20,10"
+    Public Const MP_Sanity As String = MyPlayer_Info + "F0,4C0,188,40,C0,28"
+#End Region
+#Region "PlayerPosition_Address"
+    Public Const Player_XPos_Address As String = "UnityPlayer.dll+017E46B0,58,40,38,10,68,0,204" '좌우로 체크, 좌 = 감소 / 우 = 증가
+    Public Const Player_YPos_Address As String = "UnityPlayer.dll+017E46B0,58,40,38,10,68,0,1F4" '상하로 체크, 상 = 감소 / 하 = 증가
+    Public Const Player_ZPos_Address As String = "UnityPlayer.dll+017E46B0,58,40,38,10,68,0,1FC" '트럭 높이로 체크, 좌우로 체크하면서 X값을 unchanged value로 제외해야함. 일반적 z와 동일
+    Public Const Player_Height_Address As String = "UnityPlayer.dll+017E46B0,58,40,38,10,68,0,264"
+#End Region
+#Region "GhostInfo_Address"
+    Public Const Ghost_AI As String = "GameAssembly.dll+035FF478,B8,0,80,30," '"GameAssembly.dll일 때도 있음.비공개 게임에서 GhostName을 통해 나머지를 유추할 수 있음
+    Public Const GhostName_Address As String = Ghost_AI + "38,30,14"
+    Public Const GhostAge_Address As String = Ghost_AI + "38,24"
+    Public Const GhostRoom_Address As String = Ghost_AI + "38,58,50,14"
+    Public Const GhostType_Address As String = Ghost_AI + "38,20"
+    Public Const GhostSpeed_Address As String = Ghost_AI + "88"
+    Public Const GhostIsHunting_Address As String = Ghost_AI + "8C"
+    Public Const GhostFootSound_Address As String = Ghost_AI + "70"
+
+#End Region
+#Region "GameInfo_Address"
+    Public Const Difficult_Address As String = "UnityPlayer.dll+01804EE8,128,20,B0,30,0,28,1C"
+#End Region
+#Region "Sanity"
+    Public Const Player_1_Sanity_Address As String = "GameAssembly.dll+028A6968,B8,10,18,10,20,70,138"
+    Public Const Player_2_Sanity_Address As String = "GameAssembly.dll+029F7448,B8,20,28,40,20,70,138"
+    Public Const Player_3_Sanity_Address As String = "GameAssembly.dll+029F7520,B8,10,28,40,20,70,138"
+    Public Const Player_4_Sanity_Address As String = "GameAssembly.dll+029F7568,B8,0,28,40,20,70,138"
+#End Region
+#Region "GodMode_Address"
+    Public Const GodMode_1_Address As String = "UnityPlayer.dll+017FCD50,8,10,28,0,10,28,21"
+    Public Const GodMode_2_Address As String = "UnityPlayer.dll+017FCD58,8,50,28,0,10,28,21"
+    Public Const GodMode_3_Address As String = "UnityPlayer.dll+017FCD60,8,90,28,0,10,28,21"
+#End Region
+#Region "GroundForce_Address"
+    Public Const GroundForce_1_Address As String = "GameAssembly.dll+029FA7F8,A8,60,B8,0,38,170,24"
+    Public Const GroundForce_2_Address As String = "GameAssembly.dll+029DE5C0,CD8,48,B8,20,38,170,24"
+    Public Const GroundForce_3_Address As String = "GameAssembly.dll+029EFD30,B8,20,38,58,28,170,24"
+    Public Const GroundForce_4_Address As String = "GameAssembly.dll+029F1790,B8,10,38,128,20,170,24"
+    Public Const GroundForce_5_Address As String = "GameAssembly.dll+029F2040,288,68,B8,0,38,170,24"
+    Public Const GroundForce_6_Address As String = "GameAssembly.dll+029F2650,40,B8,0,18,10,170,24"
+#End Region
+#Region "Gravity_Address"
+    Public Const Gravity_Multiplier_1_Address As String = "GameAssembly.dll+029DE5C0,CD0,40,B8,10,38,170,28"
+    Public Const Gravity_Multiplier_2_Address As String = "GameAssembly.dll+029EFD30,48,78,B8,20,38,170,28"
+    Public Const Gravity_Multiplier_3_Address As String = "GameAssembly.dll+029F1790,40,48,B8,10,38,170,28"
+    Public Const Gravity_Multiplier_4_Address As String = "GameAssembly.dll+029F2040,40,48,B8,0,38,170,28"
+    Public Const Gravity_Multiplier_5_Address As String = "GameAssembly.dll+029FA7F8,A8,60,B8,0,38,170,28"
+#End Region
+
+
+#Region "Old Code"
+    '#Region "PlayerInfo_Address"
+    '    Public Const Player_Info As String = "GameAssembly.dll+02825CA8,B8,30"
+    '    Public Const Money_Address As String = Player_Info + "18,28,18"
+    '    Public Const Level_Address As String = Player_Info + "18,20,18"
+    '    Public Const GrabDistance_Address As String = "UnityPlayer.dll+017C1CE8,A0,10,30,30,58,28,18"
+    '#Region "Item_Address"
+    '    Public Const Item_EMF As String = Player_Info + "18,30,18"
+    '    Public Const Item_Flash As String = Player_Info + "18,38,18"
+    '    Public Const Item_PhotoCamera As String = Player_Info + "18,40,18"
+    '    Public Const Item_Lighter As String = Player_Info + "18,48,18"
+    '    Public Const Item_Candle As String = Player_Info + "18,50,18"
+    '    Public Const Item_UV As String = Player_Info + "18,58,18"
+    '    Public Const Item_Cross As String = Player_Info + "18,60,18"
+    '    Public Const Item_OrbCamera As String = Player_Info + "18,68,18"
+    '    Public Const Item_GBox As String = Player_Info + "18,70,18"
+    '    Public Const Item_Salt As String = Player_Info + "18,78,18"
+    '    Public Const Item_Smudge As String = Player_Info + "18,80,18"
+    '    Public Const Item_Tripod As String = Player_Info + "18,88,18"
+    '    Public Const Item_StrongFlash As String = Player_Info + "18,90,18"
+    '    Public Const Item_MotionSensor As String = Player_Info + "18,98,18"
+    '    Public Const Item_SoundSensor As String = Player_Info + "18,A0,18"
+    '    Public Const Item_Pill As String = Player_Info + "18,A8,18"
+    '    Public Const Item_Thermometer As String = Player_Info + "18,B0,18"
+    '    Public Const Item_Writing As String = Player_Info + "18,B8,18"
+    '    Public Const Item_InfraredSensor As String = Player_Info + "18,C0,18"
+    '    Public Const Item_Microphone As String = Player_Info + "18,C8,18"
+    '    Public Const Item_Glowstick As String = Player_Info + "18,D0,18"
+    '    Public Const Item_HeadCamera As String = Player_Info + "18,D8,18"
+    '#End Region
+    '#End Region
+    '#Region "MyPlayerInfo_Address"
+    '    Public Const MyPlayer_Info As String = "GameAssembly.dll+027CF970,BA0,"
+    '    Public Const MP_Name As String = MyPlayer_Info + "18,B8,A8,F8,20,14"
+    '    Public Const MP_NameLength As String = MyPlayer_Info + "18,B8,A8,F8,20,10"
+    '    Public Const MP_Sanity As String = MyPlayer_Info + "F0,4C0,188,40,C0,28"
+    '  #End Region
+    '#Region "GhostInfo_Address"
+    '    Public Const Ghost_AI As String = "GameAssembly.dll+029A0CC0,CA0,B8,0,30,"   ' "GameAssembly.dll+029A0CC0,CB0,B8,20,30,"
+    '    Public Const GhostName_Address As String = Ghost_AI + "38,30,14"
+    '    Public Const GhostAge_Address As String = Ghost_AI + "38,24"
+    '    Public Const GhostRoom_Address As String = Ghost_AI + "38,58,50,14"
+    '    Public Const GhostType_Address As String = Ghost_AI + "38,20"
+    '#End Region
+    '#Region "GameInfo_Address"
+    '    Public Const Difficult_Address As String = "UnityPlayer.dll+01804EE8,128,20,B0,30,0,28,1C"
+    '    Public Const GhostFootSound_Address As String = "GameAssembly.dll+029F26D8,98,280,B8,B8,0,30,70"
+    '#End Region
+    '#Region "Sanity"
+    '    Public Const Player_1_Sanity_Address As String = "GameAssembly.dll+028A6968,B8,10,18,10,20,70,138"
+    '    Public Const Player_2_Sanity_Address As String = "GameAssembly.dll+029F7448,B8,20,28,40,20,70,138"
+    '    Public Const Player_3_Sanity_Address As String = "GameAssembly.dll+029F7520,B8,10,28,40,20,70,138"
+    '    Public Const Player_4_Sanity_Address As String = "GameAssembly.dll+029F7568,B8,0,28,40,20,70,138"
+    '#End Region
+    '#Region "GodMode_Address"
+    '    Public Const GodMode_1_Address As String = "UnityPlayer.dll+017FCD50,8,10,28,0,10,28,21"
+    '    Public Const GodMode_2_Address As String = "UnityPlayer.dll+017FCD58,8,50,28,0,10,28,21"
+    '    Public Const GodMode_3_Address As String = "UnityPlayer.dll+017FCD60,8,90,28,0,10,28,21"
+    '#End Region
+    '#Region "GroundForce_Address"
+    '    Public Const GroundForce_1_Address As String = "GameAssembly.dll+029FA7F8,A8,60,B8,0,38,170,24"
+    '    Public Const GroundForce_2_Address As String = "GameAssembly.dll+029DE5C0,CD8,48,B8,20,38,170,24"
+    '    Public Const GroundForce_3_Address As String = "GameAssembly.dll+029EFD30,B8,20,38,58,28,170,24"
+    '    Public Const GroundForce_4_Address As String = "GameAssembly.dll+029F1790,B8,10,38,128,20,170,24"
+    '    Public Const GroundForce_5_Address As String = "GameAssembly.dll+029F2040,288,68,B8,0,38,170,24"
+    '    Public Const GroundForce_6_Address As String = "GameAssembly.dll+029F2650,40,B8,0,18,10,170,24"
+    '#End Region
+    '#Region "Gravity_Address"
+    '    Public Const Gravity_Multiplier_1_Address As String = "GameAssembly.dll+029DE5C0,CD0,40,B8,10,38,170,28"
+    '    Public Const Gravity_Multiplier_2_Address As String = "GameAssembly.dll+029EFD30,48,78,B8,20,38,170,28"
+    '    Public Const Gravity_Multiplier_3_Address As String = "GameAssembly.dll+029F1790,40,48,B8,10,38,170,28"
+    '    Public Const Gravity_Multiplier_4_Address As String = "GameAssembly.dll+029F2040,40,48,B8,0,38,170,28"
+    '    Public Const Gravity_Multiplier_5_Address As String = "GameAssembly.dll+029FA7F8,A8,60,B8,0,38,170,28"
+    '#End Region
+#End Region 'PhasmoPhobia 0.2.6.x
+End Class
+

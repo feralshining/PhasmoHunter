@@ -1,0 +1,16 @@
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.vbprojAssemblyReference.cache
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.MainForm.resources
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.Resources.resources
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.vbproj.GenerateResource.cache
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.exe
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.xml
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.pdb
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\PhasmoHunter.exe.config
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\PhasmoHunter.exe
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\PhasmoHunter.pdb
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\PhasmoHunter.xml
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\Memory.xml
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.vbproj.Fody.CopyLocal.cache
+C:\Users\admin\source\repos\PhasmoHunter\PhasmoHunter\obj\Debug\PhasmoHunter.vbproj.CopyComplete
